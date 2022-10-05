@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page3</title>
+  <link rel="stylesheet" href="paractice.css">
+  <script src="https://kit.fontawesome.com/fdf67cbe22.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class=" allbox header">
+    <marquee behavior="" direction="">Free Delivery On Your First Order</marquee>
+  </div>
+  <div class="represent">
+    <nav class="represent2">
+
+      <div id="menu"> <i class="fa-solid fa-bars"></i> <u>Menu</u></div>
+      <div id="baroque">BAROQUE</div>
+      <div id="icon"> <i class="fa-solid fa-magnifying-glass"> </i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+      </div>
+
+    </nav>
+  </div>
+
+
+  <!-- Main Section -->
+  <div class="container">
+
+    <!-- First Row -->
+
+    <div class="item">
+      <img src="pic1.jpg" alt="" width="400" height="600">
+      <div>jbfjb</div>
+      <div>jbfjb</div>
+      <div>jbfjb</div>
+      <div>jbfjb</div>
+    </div>
+
+
+    <!-- Second Row -->
+
+    <div class="item">
+      <h3>UNSTITCHED</h3>
+      <h5>PKR 9,990</h5>
+
+      <!-- Quntity Bar -->
+      <div class="wrapper">
+        <div>Quantity</div>
+        <span class="minus">-</span>
+        <span class="num">01</span>
+        <span class="plus">+</span>
+      </div>
+      <script>
+        const plus = document.querySelector(".plus"),
+          minus = document.querySelector(".minus"),
+          num = document.querySelector(".num");
+        let a = 1;
+        plus.addEventListener("click", () => {
+          a++;
+          a = (a < 10) ? "0" + a : a;
+          num.innerText = a;
+        });
+
+        minus.addEventListener("click", () => {
+          if (a > 1) {
+            a--;
+            a = (a < 10) ? "0" + a : a;
+            num.innerText = a;
+          }
+        });
+
+      </script>
+      <div id="clothname">SKU:BQU-UF-D234-00</div>
+
+      <!-- Dropdown  -->
+      <hr>
+      <div class="dropdown">
+        <button class="btn btn- dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          DESCRIPTION
+        </button>
+        <ul class="dropdown-menu">
+          <li><button class="dropdown-item" type="button">3 PIECE</button></li>
+          <li><button class="dropdown-item" type="button">EMBROIDERED CHIFFON FRONT</button></li>
+          <li><button class="dropdown-item" type="button">EMBROIDERED ORGANZA FRONT PATTI BORING</button></li>
+          <li><button class="dropdown-item" type="button">EMBROIDERED CHIFFON SLEEVES </button></li>
+          <li><button class="dropdown-item" type="button">EMBROIDERED ORGANZA NECKLINE PATCH</button></li>
+        </ul>
+      </div>
+      <hr>
+      <div class="selection">
+        <B>Type</B>
+        <div> <button>UNSTITCHED</button> </div>
+      </div>
+
+
+      <div class="selection">
+        <B>Color</B> <button>MINT</button>
+      </div>
+
+
+      <div class="selection">
+        <B>Size Guide</B> <button>Size Cart</button>
+      </div>
+
+
+      <div id="check" class="selection">
+        <B>Addon</B> <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          LINING + RS.1500
+        </label>
+
+      </div>
+      <hr>
+      <!-- Button Section  -->
+      <div id="button">
+        <button type="button" class="btn btn-primary btn-sm">Small button</button>
+        <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+        <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+      </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/fdf67cbe22.js" crossorigin="anonymous"></script>
+    <title>Page 3</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class=" allbox header">
+        <marquee behavior="" direction="">Free Delivery On Your First Order</marquee>
+    </div>
+    <div class="represent">
+        <nav class="represent2">
+
+            <div id="menu"> <i class="fa-solid fa-bars"></i> <u>Menu</u></div>
+            <div id="baroque">BAROQUE</div>
+            <div id="icon"> <i class="fa-solid fa-magnifying-glass"> </i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- Main Section  -->
+
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <div class="item">
+                    <img src="pic1.jpg" alt="" width="400" height="600">
+                    <div class="row">
+                        <div class="col image1">
+                            <img src="pic1alt2.webp" alt="" width="100" height="100">
+                            <img src="pic8.webp" alt="" width="100" height="100">
+                            <img src="pic6.jpg" alt="" width="100" height="100">
+                            <img src="pic2.jpg" alt="" width="100" height="100">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+
+
+
+                <!-- Second Row -->
+
+                <div class="item">
+                    <h3>UNSTITCHED</h3>
+                    <h5>PKR 9,990</h5>
+
+                    <!-- Quntity Bar -->
+
+                    <div class="wrapper">
+                        <div>Quantity</div>
+                        <span class="minus">-</span>
+                        <span class="num">01</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <script>
+                        const plus = document.querySelector(".plus"),
+                            minus = document.querySelector(".minus"),
+                            num = document.querySelector(".num");
+                        let a = 1;
+                        plus.addEventListener("click", () => {
+                            a++;
+                            a = (a < 10) ? "0" + a : a;
+                            num.innerText = a;
+                        });
+
+                        minus.addEventListener("click", () => {
+                            if (a > 1) {
+                                a--;
+                                a = (a < 10) ? "0" + a : a;
+                                num.innerText = a;
+                            }
+                        });
+
+                    </script>
+                    <div id="clothname">SKU:BQU-UF-D234-00</div>
+
+                    <!-- Dropdown  -->
+                    <hr>
+                    <div class="dropdown">
+                        <button class="btn btn- dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            DESCRIPTION
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">3 PIECE</button></li>
+                            <li><button class="dropdown-item" type="button">EMBROIDERED CHIFFON FRONT</button></li>
+                            <li><button class="dropdown-item" type="button">EMBROIDERED ORGANZA FRONT PATTI
+                                    BORING</button></li>
+                            <li><button class="dropdown-item" type="button">EMBROIDERED CHIFFON SLEEVES </button></li>
+                            <li><button class="dropdown-item" type="button">EMBROIDERED ORGANZA NECKLINE PATCH</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+
+                    <!-- Section 3 -->
+
+
+                    <div class="selection">
+                        <B>Type</B>
+                        <div> <button>UNSTITCHED</button> </div>
+                    </div>
+
+
+                    <div class="selection">
+                        <B>Color</B> <button>MINT</button>
+                    </div>
+
+
+                    <div class="selection">
+                        <B>Size Guide</B> <button>Size Cart</button>
+                    </div>
+
+
+                    <div id="check" class="selection">
+                        <B>Addon</B> <input class="form-check-input" type="radio" name="flexRadioDefault"
+                            id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            LINING + RS.1500
+                        </label>
+
+                    </div>
+                    <hr>
+                    <!-- Button Section  -->
+
+                    <div id="buttons">
+                        <div class="button button2"><button type="button" class="btn btn-transperent btn-lg">Add To
+                                Wishlist</button></div>
+                        <div class="button"> <button type="button" class="btn btn-secondary btn-lg">Add To Cart
+                            </button></div>
+                        <div class="button  button2"> <button type="button" class="btn btn-transperent btn-lg">Buy It
+                                Now</button></div>
+                    </div>
+                    <hr>
+
+                    <!-- Dropdown Section 2 -->
+
+                    <div class="dropdown">
+                        <button class="btn btn-transperent dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Introduction
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">DRY CLEAN RECOMMENDED</a></li>
+                            <li><a class="dropdown-item" href="#">IRON THE CLOTHES AT MODERATE TEMPERATURE</a></li>
+                            <li><a class="dropdown-item" href="#">DO NOT USE ANY TYPE OF BLEACH OR STAIN REMOVING
+                                    CHEMICALS</a></li>
+                            <li><a class="dropdown-item" href="#">ACTUAL COLOR MAY SLIGHTLY VARY FROM THE IMAGE
+                                    SHOWN</a></li>
+                            <li><a class="dropdown-item" href="#">UNSTITCHED INCLUDES FABRIC ONLY</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-transperent dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Delivery
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">DELIVERY TIME (PAKISTAN) : WITHIN 7 WORKING DAYS FOR
+                                    UNSTITCHED</a></li>
+                            <li><a class="dropdown-item" href="#">DELIVERY TIME (PAKISTAN) : WITHIN 15 TO 17 WORKING
+                                    DAYS FOR STITCHED</a></li>
+                            <li><a class="dropdown-item" href="#">DELIVERY TIME (INTERNATIONAL) : WITHIN 10 WORKING DAYS
+                                    FOR UNSTITCHED</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-transperent dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Exchange
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">ANY PRODUCT BOUGHT FROM BAROQUE’S ONLINE STORE CAN BE
+                                    EXCHANGED </a></li>
+                            <li><a class="dropdown-item" href="#">FOR SALE ORDERS, EXCHANGES WILL BE PROVIDED</a></li>
+                            <li><a class="dropdown-item" href="#">REFUNDS ARE NOT IN CASH - THE CLIENT WILL BE ISSUED A
+                                    COUPON</a></li>
+                        </ul>
+
+                    </div>
+                    <hr>
+                    <div class="text-center"> <b>CUSTOMER REVIEWS.....</b></div>
+                    <hr>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Main Section -->
+
+        <div>
+            <div id="fline"> <u>You May Also Like</u> </div>
+        </div>
+
+        <div class="images02">
+            <div>
+                <img src="pic1.jpg" alt="" width="330" height="500">
+                <h5>UNSTITCHED</h5>
+                <h6><u>PKR 12,990</u></h6>
+                <p><u>SHOP NOW</u></p>
+            </div>
+
+            <div>
+                <img src="pic6.jpg" alt="" width="330" height="500">
+                <h5>DUPATTAS</h5>
+                <p><s>PKR 4,890</s></p>
+                <h6><u>PKR 3,890</u></h6>
+                <p><u>SHOP NOW</u></p>
+
+            </div>
+
+            <div>
+                <img src="pic3.jpg" alt="" width="330" height="500">
+                <h5>CHANTELLE FORMALS</h5>
+                <h6><u>PKR 7,699</u></h6>
+                <p><u>SHOP NOW</u></p>
+
+            </div>
+        </div>
+        
+        <!-- Footer Section  -->
+             
+        <footer>
+            <ul>
+                <a href="">WHO WE ARE</a>
+                <a href="">CONTACT US </a>
+                <a href="">OUR RESPONSIBILITY</a>
+                <a href="">EXCHANGE & REFUND </a>
+                <a href="">SHIPPING</a>
+                <a href="">LOOK BOOK</a>
+                <a href="">TRACK YOUR ORDER</a>
+                <a href="">ORDER CANCELLATION FORM</a>
+                <a href="">CUSTOMISED STITCHING</a>
+                <a href="">EXCHANGE FORM</a>
+                <a href="">CAREERS </a>
+                <a href="">LEGAL</a>
+                <a href="">FAQ's</a>
+            </ul>
+        </footer>
+    
+        <div class="bottomicon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+    
+        <div id="bottombanner">
+            <h5>ALL RIGHTS RESERVED TO BAROQUE 2022</h5>
+        </div>
+    
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
